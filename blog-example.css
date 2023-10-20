@@ -1,0 +1,73 @@
+.father {
+    position: relative;
+}
+
+.father2 {
+    position: absolute;
+    top: 0;
+}
+
+.father1 {
+    position: fixed;
+}
+
+.father1,
+.father2 {
+    width: 100%;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.child1, 
+.child2 {
+    width: 100%;
+    height: 100%;
+} 
+
+.child1 {
+    background-image: url("img/blog/img2.webp");
+    background-size: cover;
+}
+
+.child4 {
+    padding: 40px;
+    background-color: #000;
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blogImage {
+    width: 70%;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.sub-time {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.blogLink {
+    border-bottom: 1px solid #fff;
+    text-decoration: line;
+}
+
+@media (max-width: 400px) {
+    .father1,
+    .father2 {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
