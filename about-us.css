@@ -1,0 +1,49 @@
+.about {
+    position: relative;
+}
+
+.aparent-prime {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/montser.jpg");
+    background-size: cover;
+    z-index: -1;
+}
+
+.aparent {
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;    
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.abox1, 
+.abox2 {
+    width: 100%;
+    height: 100%;
+}
+
+.abox1 {
+    position: relative;
+}
+
+.abox2 {
+    background-color: #00000058;
+}
+
+.about-desc {
+    background-color: #0000008e;
+    padding: 40px;
+}
+
+.about-title {
+    font-size: 2.5rem;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}

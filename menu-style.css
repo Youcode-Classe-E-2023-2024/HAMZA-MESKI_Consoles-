@@ -1,0 +1,41 @@
+
+.global {
+    position: relative;
+}
+.menu-display {
+    background-image: linear-gradient(to bottom left,#000 , #000000b3);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.cancel-icon {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.cancel-box {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    top: 0;
+}
+
+.ICON {
+    font-size: 30px;
+}
+
+/* Home Page Styling: */
+.last-display {
+    list-style: none;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    align-items: start;
+}
+
+.last-display li {
+    font-size: 30px;
+    border-bottom: 1px solid #fff;
+}

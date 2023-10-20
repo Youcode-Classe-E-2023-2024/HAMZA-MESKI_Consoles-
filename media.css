@@ -1,0 +1,230 @@
+/* index.html */
+@media (max-width: 1060px) {
+    * {
+        font-size: 17px;
+    }
+    .title1 {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    .title2 {
+        font-size: 1.3rem;
+    }
+    .paragraph {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    .strong {
+        font-size: 1.2rem;
+    }
+    .input, .red-box {
+        padding: 9px;
+    }
+    .chevron {
+        font-size: 23px;
+    }
+    .toper {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+    }
+}
+
+@media (max-width: 968px) {
+    .nav, 
+    .nav-bar {
+        display: none;
+    }
+    .main {
+        margin-top: 0;
+    }
+    .section1 {
+      height: 100vh;  
+    }
+    .menu-section {
+        display: flex;
+        justify-content: end;
+        padding: 20px;
+    }
+    .menu-icon {
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .holder {
+        padding-top: 0px !important;
+    }
+    .layer {
+        padding-top: 0px !important;
+    }
+}
+
+@media (max-width: 710px) {
+    .input-parent {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .main {
+        gap: 33px;
+    }
+    .icon {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 470px) {
+    .input-parent {
+        gap: 20px;
+    }
+    .input {
+        width: 330px;
+    }
+}
+
+/* main.html */
+@media (max-width: 1451px) {
+    .holder {
+        padding: 60px 49px;
+        padding-top: 120px;
+    }
+    .contact-section {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 1262px) {
+    .magazine {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 914px) {
+    .magazine {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .contact-section {
+        padding: 0;
+    }
+    .copy-right {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 682px) {
+    .magazine {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 509px) {
+    .magazine {
+        grid-template-columns: 1fr;
+    }
+    .holder {
+        padding: 60px 68px;
+    }
+    .carousel {
+        display: flex;
+        justify-content: center;
+    }
+    .carousel a {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 391px) {
+    .holder {
+        padding: 60px 38px;
+    }
+}
+
+/* best-of.html */
+@media (max-width: 955px) {
+    .best-title {
+        font-size: 40px;
+    }
+    .best-content {
+        height: 711px;
+    }
+    .best-main {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 665px) {
+    .best-title {
+        font-size: 27px;
+    }
+    .redMark {
+        padding: 10px;
+    }
+    .layer {
+        padding-left: 59px;
+        padding-right: 59px;
+    }
+    .best-main {
+        padding: 19px;
+    }
+    .box1, .box3 {
+        width: 65px;
+        height: 65px;
+    }
+    .box11, .box33 {
+        width: 51px;
+        height: 51px;
+    }
+}
+
+@media (max-width: 1075px) {
+    .blog-header {
+        padding-top: 0;
+        height: 300px;
+    }
+    .layer {
+        padding-left: 55px;
+        padding-right: 44px;
+    }
+    .blog-content {
+        padding: 70px;
+    }
+}
+
+@media (max-width: 818px) {
+    .blog-content {
+        padding: 10px;
+    }
+    .c1 h1 {
+        font-size: 2em;
+    }
+    .blog-header {
+        height: 150px;
+    }
+    .c1 h1 {
+        font-size: 1.5em;
+    }
+    .c1 p {
+        font-size: 1em;
+    }
+}
+
+/* about-us.html */
+@media (max-width: 818px) {
+    .about-title {
+        font-size: 1.5rem;
+    }
+    .about-text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .aparent {
+        padding-top: 0;
+        grid-template-columns: 1fr;
+    }
+    .abox1 {
+        display: none;
+    }
+}

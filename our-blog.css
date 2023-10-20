@@ -1,0 +1,163 @@
+
+.blog-header {
+    padding-top: 100px;
+    position: relative;
+    height: 500px;
+    background-image: linear-gradient(to left, #0000005d, #000000c9);
+}
+
+.c1, 
+.c2{
+    width: 100%;
+    height: 100%;
+}
+
+.c1 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.c1 h1 {
+    font-size: 3em;
+}
+
+.c1 p {
+    font-size: 1.5em;
+}
+
+.c2 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-image: url("img/blog/img1.jpg");
+    background-size: cover;
+}
+
+.blog-content {
+    background-color: #282c37;
+    padding: 70px 150px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.blog-item {
+    min-height: 285px;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+
+.blog-item:hover {
+    opacity: 0.5;
+}
+
+.blog-item p {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px !important;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.blog-item1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    background-image: url("img/blog/img2.webp");
+}
+
+.blog-item2 {
+    background-image: url("img/blog/img3.jpeg");
+}
+
+.blog-item3 {
+    background-image: url("img/blog/img4.jpg");
+}
+
+.blog-item4 {
+    grid-column: 3 / 5;
+    grid-row: 2 / 4;
+    background-image: url("img/blog/img5.jpg");
+}
+
+.blog-item5 {
+    background-image: url("img/blog/img7.jpg");
+}
+
+.blog-item6 {
+    background-image: url("img/blog/img8.png");
+}
+
+.blog-item7 {
+    grid-column: 1 / 3;
+    grid-row: 4 / 6;
+    background-image: url("img/blog/img6.webp");
+}
+
+.blog-item8 {
+    background-image: url("img/blog/img9.webp");
+}
+
+.blog-item9 {
+    background-image: url("img/blog/img10.jpg");
+}
+
+.blog-item10 {
+    grid-column: 3 / 5;
+    grid-row: 5 / 7;
+    background-image: url("img/blog/img11.jpg");
+}
+
+.blog-item11 {
+    background-image: url("img/blog/img12.webp");
+}
+
+.blog-item12 {
+    background-image: url("img/blog/img13.webp");
+}
+
+/*  */ 
+.contact-relative {
+    position: relative;
+}
+
+.red-circle {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    color: #000;
+    border-radius: 50%;
+    position: absolute; 
+    top: 0;
+}
+
+.red-icon {
+    font-size: 30px;
+}
+
+.contact-sec {
+    flex-direction: column;
+    gap: 5px;
+}
+
+.to-top {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.between {
+    padding-bottom: 10px;
+}

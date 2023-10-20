@@ -1,0 +1,196 @@
+
+.container {
+    height: 100%;
+}
+
+.nav-list {
+    list-style: none;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.nav-list a {
+    letter-spacing: 1px;
+    padding-bottom: 4px;
+}
+
+.nav-list a:hover {
+    border-bottom: 1px solid #fff;
+    transition: all 0.5s;
+}
+
+.nav-bar {
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: #181c1ccc;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+
+.nav1 {
+    align-items: center;
+}
+
+.nav2 {
+    gap: 50px;
+}
+
+.top-icon {
+    gap: 10px;
+    cursor: pointer;
+}
+
+.holder {
+    background-color: #282c37;
+    padding: 200px 100px;
+    flex-direction: column; 
+    gap: 40px;
+}
+
+/* Magazine: */
+.magazine {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.magazine img {
+    width: 10em;
+}
+
+.magazine p {
+    font-size: 17px;
+}
+
+.telecharger {
+    background-color: #4fc431;
+    padding: 5px 20px;
+    border-radius: 4px;
+    color: #181c1c;
+}
+
+.img {
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.img1 {
+    background-image: url("img/console/img1.jpg");
+}
+.img2 {
+    background-image: url("img/console/img2.jpg");
+}
+.img3 {
+    background-image: url("img/console/img3.jpg");
+}
+.img4 {
+    background-image: url("img/console/img4.jpg");
+}
+.img5 {
+    background-image: url("img/console/img5.jpg");
+}
+.img6 {
+    background-image: url("img/console/img6.jpg");
+}
+.img7 {
+    background-image: url("img/console/img7.jpg");
+}
+.img8 {
+    background-image: url("img/console/img8.jpg");
+}
+
+.imgFlex {
+    background-color: #1f232c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: 320px;
+    border: 1.5px solid #fff;
+}
+
+/* carousel: */ 
+.carousel {
+    list-style: none;
+    gap: 10px;
+}
+
+.carousel  a {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holder-title {
+    font-size: 1.5em;
+}
+
+.rate {
+    gap: 6px;
+}
+
+
+footer {
+    padding-bottom: 0;
+    background-color: #181c1c;
+}
+.contact {
+    background-color: #fff;
+    padding: 2px 2px;
+    width: 300px;
+    align-items: center;
+    gap: 10px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;    
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.unic {
+    color: #000;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 100px 0;
+}
+
+.black-box {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.black-box ion-icon {
+    color: #fff;
+    font-size: 25px;
+}
+
+.copy-right {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-title {
+    padding: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
