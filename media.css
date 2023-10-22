@@ -156,7 +156,8 @@
 }
 
 @media (max-width: 665px) {
-    .best-title {
+    .best-title1, 
+    .best-title2 {
         font-size: 27px;
     }
     .redMark {

@@ -25,7 +25,7 @@
                             <strong>English</strong>
                             <ion-icon name="caret-down-outline" class="icon"></ion-icon>
                         </button>
-                        <a href="" class="sign-in">
+                        <a class="sign-up">
                             Sign Up
                         </a>
                     </div>
@@ -42,10 +42,13 @@
                         <h2 class="title2">Read anywhere. Cancel anytime.</h2>
                         <p class="paragraph">Ready to watch? Enter your email to create or restart your membership.</p>
                         <div class="input-parent flex">
-                            <input type="text" placeholder="Email address" required class="input">
-                            <a href="main.html" class="red-box center">
+                            <div class="two-inputs">
+                                <input type="text" placeholder="Email address" required class="input Email">
+                                <input type="password" placeholder="Password" required class="input Password">
+                            </div>
+                            <a class="Enter red-box center">
                                 <div class="get-started center">
-                                    <strong class="strong" onclick="">Get Started </strong> 
+                                    <strong class="strong">Get Started </strong> 
                                     <ion-icon name="chevron-forward" class="chevron"></ion-icon>
                                 </div>
                             </a>
@@ -57,16 +60,32 @@
             <!-- section2 -->
             <section class="section2 center">
             </section>
+            <!-- <video src="video/gamer.mp4" autoplay loop id="bgvideo"></video> -->
         </section>
 
+        <!-- Menu Display: -->
         <section class="menu-display hidden">
             <div class="cancel-box">
                 <ion-icon name="close-outline" class="cancel-icon"></ion-icon>
             </div>
             <div style="height: 80vh;" class="center">
-                <a href="" class="sign-in">
+                <a class="sign-up">
                     Sign Up
                 </a>
+            </div>
+        </section>
+
+        <!-- Sign-up Display: -->
+        <section class="sign-up-display hidden">
+            <main>
+                <ion-icon name="close-outline" class="sign-cancel"></ion-icon>
+            </main>
+            <div class="center">
+                <div class="sign-form">
+                    <input type="text" placeholder="Enter Your Email" class="sign-input personal-email">
+                    <input type="password" placeholder="Enter Your Password" class="sign-input personal-password">
+                    <button class="sign-up-button">Sign-up</button>
+                </div>
             </div>
         </section>
     </section>
@@ -75,5 +94,6 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="script.js"></script>
+    <script src="fakeData.js"></script>
 </body>
 </html>

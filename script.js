@@ -8,12 +8,8 @@ const container = document.querySelector(".container");
 
 icon.addEventListener("click", function() {
     menu_display.classList.remove("hidden");
-    container.style.position = "fixed";
 })
 
 cancel_icon.addEventListener("click", function() {
     menu_display.classList.add("hidden");
-    container.style.position = "relative";
 })
-
-

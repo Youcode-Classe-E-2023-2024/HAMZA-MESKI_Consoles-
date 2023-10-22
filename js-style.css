@@ -3,3 +3,46 @@
     display: none;
 }
 
+.sign-up-display {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.817);
+    padding: 20px;
+}
+
+.sign-up-display > main {
+    display: flex; 
+    justify-content: end;
+}
+
+.sign-up-display > div {
+    height: 94vh;
+}
+
+.sign-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sign-input, 
+.sign-up-button {
+    border-radius: 9px;
+    font-size: 1rem;
+    padding: 10px 20px ;
+    color: #000;
+}
+
+.sign-up-button {
+    border: none;
+    background-color: #4fc431;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sign-cancel {
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}

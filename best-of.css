@@ -92,8 +92,9 @@
     padding-bottom: 30px;
 }
 
-.best-title {
-    font-size: 60px;
+.best-title1, 
+.best-title2 {
+    font-size: 3rem;
 }
 
 .back {
